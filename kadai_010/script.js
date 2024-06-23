@@ -148,7 +148,7 @@ $(function () {
     //お住まいの都道府県のチェック
     if ($('#prefecture').val() == '') {
       // エラーあり
-      $('#prefecturee').css('background-color', '#f79999');
+      $('#prefecture').css('background-color', '#f79999');
       error = true;
       message += 'お住まいの都道府県を選択してください。\n';
     } else {
